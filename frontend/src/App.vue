@@ -1,6 +1,4 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
-// import TheWelcome from './components/TheWelcome.vue'
 import Navbar from "./components/Navbar.vue"
 </script>
 
@@ -11,6 +9,7 @@ import Navbar from "./components/Navbar.vue"
       <p>Promo Gotani</p>
     </div>
     <Navbar />
+    
     
     <router-view></router-view>
   </div>
