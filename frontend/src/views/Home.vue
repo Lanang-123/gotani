@@ -1,6 +1,20 @@
 <script setup>
     import KategoriSide from "../components/KategoriSide.vue"
     import MainProduct from "../components/MainProduct.vue"
+
+    import {ref,onMounted} from 'vue'
+    import axios from 'axios'
+
+    const products = ref(null);
+
+    onMounted(()=>{
+        fetch('http://localhost:8000/products')
+            .then(product => console.log(product))
+            .catch((err)=> console.log(err));
+    })
+
+
+
 </script>
 
 
