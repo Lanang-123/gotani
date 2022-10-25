@@ -1,5 +1,5 @@
 {
-    "editor.fontSize": 22,
-    "editor.lineHeight": 33,
-    "editor.suggestLineHeight": 33
+    "editor.fontSize": 14,
+    "editor.lineHeight": 20,
+    "editor.suggestLineHeight": 20
 }
