@@ -22,11 +22,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/login', [AuthController::class, 'login'])->name('login');
-Route::post('/register', [AuthController::class, 'register'])->name('register');
-Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+Route::post('/login', [AuthController::class, 'login'])->name('login')->middleware('guest');
+Route::post('/register', [AuthController::class, 'register'])->name('register')->middleware('guest');
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout')->middleware('auth');
 
-Route::prefix('category')->group(function () {
+Route::prefix('category')->middleware('auth')->group(function () {
     Route::get('/', [CategoryController::class, 'getAll'])->name('category.getAll');
     Route::get('/category/{id}', [CategoryController::class, 'getById'])->name('category.getById');
     Route::post('/search', [CategoryController::class, 'search'])->name('category.search');
@@ -38,7 +38,7 @@ Route::prefix('category')->group(function () {
     Route::get('/delete/{users:user}', [CategoryController::class, 'destroy'])->name('category.destroy');
 });
 
-Route::prefix('products')->group(function () {
+Route::prefix('products')->middleware('auth')->group(function () {
     Route::get('/', [ProductController::class, 'getAll'])->name('product.getAll');
     Route::get('/product/{id}', [ProductController::class, 'getById'])->name('product.getById');
     Route::post('/search', [ProductController::class, 'search'])->name('product.search');
@@ -50,7 +50,7 @@ Route::prefix('products')->group(function () {
     Route::post('/destroy/{users:user}', [ProductController::class, 'destroy'])->name('product.destroy');
 });
 
-Route::prefix('keranjang')->group(function () {
+Route::prefix('keranjang')->middleware('auth')->group(function () {
     Route::post('/insertToChart', [KeranjangController::class, 'insertToChart'])->name('product.insertToChart');
     Route::get('/getChart', [KeranjangController::class, 'getChart'])->name('product.getChart');
     Route::post('/updateChart/{users:user}', [KeranjangController::class, 'updateChart'])->name('product.updateChart');
