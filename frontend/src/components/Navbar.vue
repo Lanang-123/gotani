@@ -1,7 +1,7 @@
 <template>
     <div class="navbar bg-white shadow-lg">
     <div class="flex-1 md:gap-10">
-        <a class="btn btn-ghost normal-case text-xl text-black"><b class="text-ijo-muda">GO</b>Tani</a>
+        <router-link :to="{name:'home'}" class="btn btn-ghost normal-case text-xl text-black"><b class="text-ijo-muda">GO</b>Tani</router-link>
         
         <div class="form-control md:block hidden">
             <div class="input-group lebar-input h-8">
@@ -18,7 +18,7 @@
     
     <div class="flex-none gap-1 md:gap-2">
         <div class="flex items-center justify-center gap-2 md:mx-0 mx-3">
-            <button class="h-5 w-5 text-xl p-5 bg-gray-100 flex justify-center items-center  rounded-full  hover:text-ijo-tua "><font-awesome-icon icon="store" /></button>
+            <router-link :to="{name:'berniaga'}" class="h-5 w-5 text-xl p-5 bg-gray-100 flex justify-center items-center  rounded-full  hover:text-ijo-tua "><font-awesome-icon icon="store" /></router-link>
             <p class="text-xs text-ijo-tua font-semibold md:block hidden">Berniaga</p>
         </div>
         <div class="w-0 h-10 border-l-2 border-gray-200 "></div>
@@ -33,9 +33,9 @@
             <div tabindex="0" class="mt-3 card card-compact dropdown-content w-52 bg-white shadow">
                 <div class="card-body">
                     <span class="font-bold text-lg">8 Items</span>
-                    <span class="text-info">Subtotal: $999</span>
+                    <span class="text-info">Subtotal: Rp. 10.000,00</span>
                     <div class="card-actions">
-                        <button class="btn btn-primary btn-block">View cart</button>
+                        <router-link class="btn btn-primary btn-block" :to="{name:'keranjang'}">View cart</router-link>
                     </div>
                 </div>
             </div>
@@ -51,9 +51,9 @@
             <div tabindex="0" class="mt-3 card card-compact dropdown-content w-52 bg-white shadow">
                 <div class="card-body">
                     <span class="font-bold text-lg">8 Items</span>
-                    <span class="text-info">Subtotal: $999</span>
+                    <span class="text-info">7 Pesan</span>
                     <div class="card-actions">
-                        <button class="btn btn-primary btn-block">View cart</button>
+                        <router-link :to="{name:'notifikasi'}" class="btn btn-primary btn-block">Lihat Notifikasi</router-link>
                     </div>
                 </div>
             </div>

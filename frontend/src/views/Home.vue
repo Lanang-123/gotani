@@ -52,10 +52,10 @@
 
            <!-- Layanan -->
             <div class="grid grid-cols-3 gap-10 justify-items-center -mt-7 absolute mx-auto lebar-layanan">
-                <div class="flex bg-ijo-muda py-3 gap-4 justify-center items-center px-3 text-white rounded-lg w-56">
+                <router-link :to="{name:'edukasi'}" class="flex bg-ijo-muda py-3 gap-4 justify-center items-center px-3 text-white rounded-lg w-56">
                     <b class="text-2xl"><font-awesome-icon icon="graduation-cap" /></b>
                     <h5 class="font-semibold">Edukasi Pertanian</h5>
-                </div>
+                </router-link>
                 <div class="flex bg-ijo-muda py-3 gap-4 justify-center items-center px-3 text-white rounded-lg w-56">
                     <b class="text-2xl"><font-awesome-icon icon="calendar-check" /></b>
                     <h5 class="font-semibold">Event Pertanian</h5>
