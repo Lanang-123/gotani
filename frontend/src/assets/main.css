@@ -7,3 +7,17 @@
 body{
     background-color:white;
 }
+
+.hide-border {
+    border:none;
+}
+.tinggi-button-search {
+    height: 10px !important;
+}
+.lebar-input {
+    width:500px;
+}
+
+.lebar-layanan {
+    width:73%;
+}
