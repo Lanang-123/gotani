@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('slug');
+            $table->enum('type', ['edukasi-bertani', 'edukasi-berniaga', 'lahan-bertani', 'inovasi-bertani']);
             $table->string('image')->nullable();
             $table->text('description')->nullable();
             $table->longText('content')->nullable();
