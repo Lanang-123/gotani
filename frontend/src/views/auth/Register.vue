@@ -1,24 +1,35 @@
 <script setup>
-import GuestLayout from '@/Layouts/GuestLayout.vue';
-import InputError from '@/Components/InputError.vue';
-import InputLabel from '@/Components/InputLabel.vue';
-import PrimaryButton from '@/Components/Primary=Button.vue';
-import TextInput from '@/Components/TextInput.vue';
-import { Head, Link, useForm } from '@inertiajs/inertia-vue3';
+    import {reactive,ref} from 'vue';
+    import {useRouter} from 'vue-router'
+    import axios from "axios"
 
-const form = useForm({
-    name: '',
-    email: '',
-    password: '',
-    password_confirmation: '',
-    terms: false,
-});
-
-const submit = () => {
-    form.post(route('register'), {
-        onFinish: () => form.reset('password', 'password_confirmation'),
+    const register = reactive({
+        name : '',
+        username: '',
+        contact: '',
+        email: '',
+        password: '',
     });
-};
+
+    const isCheck = ref(false);
+
+    const validation = ref([]);
+
+    const router = useRouter();
+
+    const store = () => {
+        const {name,username,contact,email,password} = register;
+
+        axios.post('http://localhost:8000/register',{name,username,contact,email,password})
+            .then(()=>router.push({name:login}))
+            .catch((err)=>validation.value = err.response.data)
+    }
+
+
+
+
+
+
 </script>
 
 <template>
@@ -74,57 +85,57 @@ const submit = () => {
                 <div>
                     <div class="text-left sm:mt-5">
                     <div class="inline-flex items-center w-full">
-                        <h2 class="text-3xl font-black leading-6 lg:text-4xl mx-auto lg:mx-0">Registrasi</h2>
+                        <h2 class="text-3xl font-black leading-6 lg:text-4xl mx-auto lg:mx-0 text-black">Registrasi</h2>
                     </div>
                     <div class="text-base text-gray-500 tracking-20 text-center lg:text-start">
                         <h2 class="text-xl tracking-wide">Buat akun terlebih dahulu</h2>
                     </div>
                     </div>
                 </div>
-
                 <div class=" space-y-2 flex flex-col gap-2 py-6">
-                    <div>
-                        <h5 for="nama" class="font-semibold">Nama Pengguna</h5>
-                        <input type="text" name="nama" id="nama" class="block w-full px-5  text-base text-neutral-600 transition duration-500 ease-in-out transform border border-transparent rounded-md bg-abu focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" placeholder="Masukkan nama lengkap anda">
-                    </div>
+                    <form @submit.prevent="store" class="flex flex-col gap-2" >
+                        <div class="form-group">
+                            <h5 for="name" class="font-semibold text-black">Nama Lengkap</h5>
+                            <input type="text" name="name" id="name" class="block w-full px-5  text-base text-black transition duration-500 ease-in-out transform border border-transparent rounded-md bg-abu focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" placeholder="Masukkan nama lengkap anda" v-model="register.name">
+                        </div>
 
-                    <div>
-                        <h5 for="wa" class="font-semibold">No.Handphone / WA</h5>
-                        <input type="number" name="wa" id="wa" class="block w-full px-5 text-base text-neutral-600  transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-abu focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" placeholder="Masukkan no hp/wa anda">
-                    </div>
+                        <div>
+                            <h5 for="username" class="font-semibold text-black">Username</h5>
+                            <input type="text" name="username" id="username" class="block w-full px-5  text-base text-black transition duration-500 ease-in-out transform border border-transparent rounded-md bg-abu focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" placeholder="Masukkan nama lengkap anda"
+                            v-model="register.username">
+                        </div>
 
-                    <div>
-                        <h5 for="email" class="font-semibold">Alamat Email</h5>
-                        <input type="email" name="email" id="email" class="block w-full px-5 text-base text-neutral-600 transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-abu focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" placeholder="Masukkan email anda">
-                    </div>
+                        <div>
+                            <h5 for="contact" class="font-semibold text-black">No.Handphone / WA</h5>
+                            <input type="number" name="contact" id="contact" class="block w-full px-5 text-base text-black  transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-abu focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" placeholder="Masukkan no hp/wa anda"
+                            v-model="register.contact">
+                        </div>
 
-                    <div>
-                        <h5 for="password" class="font-semibold">Password</h5>
-                        <input type="password" name="password" id="password" class="block w-full px-5  text-base text-neutral-600  transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-abu focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" placeholder="Password minimal 8 karakter">
-                    </div>
+                        <div>
+                            <h5 for="email" class="font-semibold text-black">Alamat Email</h5>
+                            <input type="email" name="email" id="email" class="block w-full px-5 text-base text-black transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-abu focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" placeholder="Masukkan email anda"
+                            v-model="register.email">
+                        </div>
 
-                    <div>
-                        <h5 for="role" class="font-semibold">Status</h5>
-                        <select class="block w-full px-5 text-base text-neutral-600 placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-abu focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300">
-                            <option>- Pilih -</option>
-                            <option>Petani</option>
-                            <option>Pembeli</option>
-                            <option>Pedagang Pupuk</option>
-                            <option>Penyewa Alat</option>
-                            <option>Pemanen Padi</option>
-                            <option>Penggiling Padi</option>
-                        </select>
-                    </div>
+                        <div>
+                            <h5 for="password" class="font-semibold  text-black">Password</h5>
+                            <input type="password" name="password" id="password" class="block w-full px-5  text-base text-black  transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-abu focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" placeholder="Password minimal 8 karakter" v-model="register.password">
+                        </div>
+                        
+                        <div class="flex align-center gap-4 my-4">
+                            <input type="checkbox" class="bg-gray-200" :checked="isCheck" @click="isCheck = !isCheck">
+                            <p class="-mb-3">Saya setuju dengan<a href="/" class="text-ijo-muda underline"> syarat dan ketentuan</a></p>
+                        </div>
 
-                    
-                    <div class="flex align-center gap-4 ">
-                        <input type="checkbox" class="bg-gray-200">
-                        <p class="-mb-3">Saya setuju dengan<a href="/" class="text-ijo-muda underline"> syarat dan ketentuan</a></p>
-                    </div>
-                    <div class="flex flex-col mt-4 lg:space-y-2">
-                    <button type="button" class="flex items-center justify-center w-full px-10 py-3 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-gradient-to-r from-ijo-muda to-black  rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 register-text mt-3">BUAT AKUN</button>
-                    
-                    </div>
+                        <div class="flex flex-col mt-4 lg:space-y-2">
+                        <button type="submit" 
+                        :class="isCheck ? 
+                        'flex items-center justify-center w-full px-10 py-3 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-gradient-to-r from-ijo-muda to-black  rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 register-text mt-3' 
+                        : 'flex items-center justify-center w-full px-10 py-3 text-base font-medium text-center  transition duration-500 ease-in-out transform bg-abu text-black rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 register-text mt-3'"
+                        :disabled="!isCheck">BUAT AKUN</button>
+                        
+                        </div>
+                    </form>
                 </div>
             </div>
             <div class="order-first md:h-full h-52 w-full lg:block bg-gradient-to-b from-ijo-tua to-black col-span-2 md:p-28 flex justify-center items-center">

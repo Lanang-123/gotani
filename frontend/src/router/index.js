@@ -28,15 +28,21 @@ const routes = [
         component: ()=>import('@/views/Edukasi.vue')
     },
     {
-        path:"/update/:id",
-        name:'transaksi.update',
-        component: ()=>import('@/views/transaksi/update.vue')
+        path:"/register",
+        name:"register",
+        component: ()=>import('@/views/auth/Register.vue')
     },
     {
-        path:"/create",
-        name:'transaksi.create',
-        component: ()=>import('@/views/transaksi/create.vue')
-    }
+        path:"/login",
+        name:"login",
+        component: ()=>import('@/views/auth/Login.vue')
+    },
+    {
+        path:"/jasa",
+        name:"jasa",
+        component: ()=>import('@/views/JasaPertanian.vue')
+    },
+    
 ];
 
 const router = createRouter({

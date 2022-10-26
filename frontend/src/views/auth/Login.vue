@@ -1,33 +1,12 @@
 <script setup>
-import Checkbox from '@/Components/Checkbox.vue';
-import GuestLayout from '@/Layouts/GuestLayout.vue';
-import InputError from '@/Components/InputError.vue';
-import InputLabel from '@/Components/InputLabel.vue';
-import PrimaryButton from '@/Components/PrimaryButton.vue';
-import TextInput from '@/Components/TextInput.vue';
-import { Head, Link, useForm } from '@inertiajs/inertia-vue3';
 
-defineProps({
-    canResetPassword: Boolean,
-    status: String,
-});
-
-const form = useForm({
-    email: '',
-    password: '',
-    remember: false
-});
-
-const submit = () => {
-    form.post(route('login'), {
-        onFinish: () => form.reset('password'),
-    });
-};
 </script>
 
 <template>
-  
-    <GuestLayout>
+    <div class="h-screen">
+        <h1 class="text-2xl text-black">Login Berhasil</h1>
+    </div>
+    <!-- <GuestLayout>
         <div class="px-4 py-12 mx-auto max-w-screen md:px-0 md:py-0 md:-mt-20 min-h-screen">
         <div class="justify-center mx-auto text-left align-bottom transition-all transform bg-white rounded-lg sm:align-middle md:max-w-full sm:max-w-2xl sm:w-full h-50">
         
@@ -99,7 +78,7 @@ const submit = () => {
         </div>
         </div>
         </div>
-    </GuestLayout>
+    </GuestLayout> -->
 
 
 </template>

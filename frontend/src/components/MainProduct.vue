@@ -10,7 +10,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -23,7 +23,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -38,7 +38,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -51,7 +51,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -66,7 +66,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -79,7 +79,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -94,7 +94,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -107,7 +107,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -122,7 +122,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -135,7 +135,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -150,7 +150,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -163,7 +163,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -178,7 +178,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -191,7 +191,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -213,7 +213,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -226,7 +226,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -241,7 +241,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -254,7 +254,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -269,7 +269,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -282,7 +282,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -297,7 +297,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -310,7 +310,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -325,7 +325,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -338,7 +338,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -353,7 +353,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -366,7 +366,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
@@ -381,7 +381,7 @@
                     src="https://th.bing.com/th/id/OIP.6Z9pQugkd7YtIFM-kujI0QHaE8?w=239&h=180&c=7&r=0&o=5&pid=1.7" />
                 <div class="px-5 py-3 space-y-2 w-full overflow-auto">
                     <div class="w-full">
-                        <h3 class="text-md">Super Computer <br> 9064GB RAM</h3>
+                        <h3 class="text-md">Wortel <br> Merah Nikmat</h3>
                     </div>
                     <div class="space-x-2 flex flex-wrap ">
                         <span class="px-3 py-0.5 border border-ijo-muda text-[9px] text-ijo-muda">Free Ship</span>
@@ -394,7 +394,7 @@
                     </p>
                     <div class="flex justify-between items-center pt-3 pb-2">
                         <a href="#"
-                            class="px-3 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
+                            class="px-1 py-2 bg-ijo-tua hover:bg-amber-600 text-center text-xs text-white rounded duration-300"><font-awesome-icon icon="cart-shopping" /> 
                             Tambah</a>
 
                         <button title="Add to Favorites"
